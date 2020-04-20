@@ -6,12 +6,14 @@ import { AppComponent } from './app.component';
 import {CoreModule} from './core/core.module';
 import { UserComponent } from './user/user.component';
 import { TransformDirective } from './transform.directive';
+import { SafePipe } from './pipes/safe/safe.pipe';
 
 @NgModule({
   declarations: [
     AppComponent,
     UserComponent,
-    TransformDirective
+    TransformDirective,
+    SafePipe
   ],
   imports: [
     BrowserModule,
