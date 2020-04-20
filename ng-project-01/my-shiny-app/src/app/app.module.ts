@@ -5,11 +5,13 @@ import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import {CoreModule} from './core/core.module';
 import { UserComponent } from './user/user.component';
+import { TransformDirective } from './transform.directive';
 
 @NgModule({
   declarations: [
     AppComponent,
-    UserComponent
+    UserComponent,
+    TransformDirective
   ],
   imports: [
     BrowserModule,
